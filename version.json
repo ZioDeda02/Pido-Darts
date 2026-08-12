@@ -1,0 +1,13 @@
+{
+  "app": "Pido Darts",
+  "version": "1.0.4",
+  "channel": "stable-beta-test",
+  "released": "2026-08-12",
+  "minimumSupportedVersion": "1.0.1",
+  "notes": [
+    "Corretto su iPhone/iPad lo skip-link “Vai al contenuto principale”: resta nascosto finché non viene richiesto tramite focus visibile.",
+    "Introdotta la separazione tra sorgente privato e build pubblica di produzione.",
+    "La build pubblica usa bundle CSS/JS compatti, non include documentazione interna né source map e include regole anti-crawler AI volontarie.",
+    "Aggiunte policy CSP/referrer e predisposizione di header di sicurezza per hosting compatibili."
+  ]
+}
