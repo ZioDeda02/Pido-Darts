@@ -1,0 +1,16 @@
+{
+  "app": "Pido Darts",
+  "version": "1.0.4.1",
+  "channel": "stable-beta-test",
+  "released": "2026-08-14",
+  "minimumSupportedVersion": "1.0.1",
+  "notes": [
+    "Security Hardening: rimossi i sink HTML dinamici dal runtime e resa più difensiva la visualizzazione dei dati importati.",
+    "Import backup rinforzato con allowlist dei file ZIP, limiti strutturali, verifica CRC32, controllo dei tipi e validazione di avatar, colori e impostazioni.",
+    "Avatar e sfondi importati accettano solo immagini raster locali PNG/JPEG/WebP entro limiti di dimensione; SVG e URL esterni non vengono usati come immagini persistenti.",
+    "Service Worker limitato alle sole cache Pido Darts e alle sole risorse della cache corrente.",
+    "Updater rinforzato con validazione del formato versione e limite per version.json.",
+    "Build pubblica con controllo automatico dei sink ad alto rischio, bundle hashati e Subresource Integrity SHA-256.",
+    "CSP e header predisposti ulteriormente irrigiditi, senza modificare regole di gioco o dati locali esistenti."
+  ]
+}

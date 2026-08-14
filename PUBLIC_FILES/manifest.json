@@ -1,0 +1,36 @@
+{
+  "name": "Pido Darts",
+  "short_name": "Pido Darts",
+  "description": "Pido Darts: PWA offline per allenamento, record, sfide contro il computer, multiplayer e statistiche di freccette.",
+  "lang": "it",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#030605",
+  "theme_color": "#06110b",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "categories": [
+    "games",
+    "sports"
+  ],
+  "prefer_related_applications": false,
+  "dir": "ltr"
+}
